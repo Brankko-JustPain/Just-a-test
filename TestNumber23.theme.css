@@ -1,0 +1,127 @@
+/**
+*@name TestNumber23
+*@description A Discord Theme but it's a test
+*@author Brankko-JustPain
+*
+*website http://github.com/Brankko-JustPain
+*/
+.fullscreen-bg video,
+.fullscreen-bg-video{
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: -100;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+
+:root {
+        --transparencycolor:             0,0,0;
+        --transparencyalpha:             0.18;
+        --messagetransparency:           0.6;
+        --memberlisttransparency:        0,3;
+        --accentcolor:                         14, 235, 220;
+
+        --font:                                   Jofi;
+        --textshadow:                      transparent;
+        
+        --background:                           transparent;
+        --backgoundsize:                        cover;
+        --backgroundblur                         0,5px;
+        
+        --popout-color:                        rgba(0,0,0,0.55);
+        --popout-radius:                       var (--app-radius);
+        --scrollbar-color:                     0,0,0;
+        --scrollbar-color-alt:                 255,255,255;
+        --scrollbar-opacity:                    0.5;
+        ---scrollbar-opacity-hover:                0.7;
+        --scrollbar-width:                        10px; }
+ /*
+ *
+ *	SUPPORTED PLUGINS
+ *
+ */
+/* SUPPORTED PLUGINS -> CharCounter */
+.charCounter-7fw40k {
+  position: relative;
+  z-index: 1; }
+
+.chatCounter-XOMPsh {
+  bottom: auto; }
+
+.counter-uAzbKp {
+  width: 100%;
+  height: 35px;
+  padding: 0 16px;
+  line-height: 35px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
+  text-align: right;
+  font-weight: 500; }
+
+/* SUPPORTED PLUGINS -> HideChannels */
+.sidebar-2K8pFh.hideElement .container-3baos1 {
+  position: absolute;
+  overflow: hidden; }
+
+.sidebar-2K8pFh.hideElement .container-3baos1,
+.sidebar-2K8pFh.hideElement .container-3baos1:before {
+  background-color: transparent !important;
+  border-radius: 0;
+  box-shadow: none !important; }
+
+.sidebar-2K8pFh.hideElement .container-3baos1:before {
+  box-shadow: inset 0 0 0 100vmax var(--main-content-color) !important; }
+
+/* SUPPORTED PLUGINS -> ServerSearch */
+.popoutRight-1veHKi.noArrow-2foL9g {
+  overflow: hidden; }
+
+ /*change last number to adjust darkness */
+.da-bg{ background-color: rgba(25, 25, 25, 0.80);}
+
+.fullscreen-bg video,
+.fullscreen-bg-video{
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: -100;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+/*Transparency*/
+.da-container,
+.da-wrapper,
+.da-base,
+.da-layer,
+.da-layers,
+.da-sidebar,
+.da-app,
+.da-chat,
+.da-content,
+.da-embedFull,
+.da-scroller,
+.da-panels,
+.da-nowPlayingColumn,
+.da-privateChannels,
+.da-applicationStore,
+.da-contentRegion,
+.da-standardSidebarView,
+.da-contentRegionScroller,
+.da-sidebarRegionScroller,
+.da-members,
+.da-inset,
+.da-systemPad,
+.content-region,
+.content-region-scroller,
+.da-form:before
+{background: transparent !important; border: 0px;}
+
+.da-bodyInner, /*User Cards*/
+.da-grid /*Embedded Items - change last number to adjust darkness */
+{ background: rgba(25, 25, 25, 0.5) !important;}
+        
